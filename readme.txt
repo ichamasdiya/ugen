@@ -18,7 +18,7 @@ How to Install this plugin. Copy the code below between the <head></head> :
 // Config
 
 var youtubeid = ["IjbRSA5SK7o","kkIT6VHc3Gc","2SDvBadYIF4","uxq1nCgH8Mk","delpwNI-Lw0","h90Ffcxw57k","c8HzEzBUdws"];
-// Your Youtube Video id
+// Add your Youtube Video id, as much as you want.
 
 var include = Array("adf.ly", ".zip", ".rar", "sh.st", "example.com");
 // Empty = Process all links in page (not recommended)
