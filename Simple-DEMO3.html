@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YouGenURL DEMO</title>
+
+<div align="center"><noscript>
+<div style="position:fixed; top:0px; left:0px; z-index:9999999999999; height:100%; width:100%; background-color:#FFFFFF">
+<div style="font-family: Trebuchet MS; font-size: 14px; background-color:#FFF000; padding: 10pt;">Oops! It appears that you have disabled your Javascript. In order for you to see this page as it is meant to appear, we ask that you please re-enable your Javascript!</div></div>
+</noscript></div>
+<script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+// Config
+
+var youtubeid = ["IjbRSA5SK7o","kkIT6VHc3Gc","2SDvBadYIF4","uxq1nCgH8Mk","delpwNI-Lw0","h90Ffcxw57k","c8HzEzBUdws"];
+// Your youtube video id
+
+var include = Array("adf.ly", ".zip", ".rar", "sh.st", "example.com");
+// Empty = Process all links in page (not recommended)
+// Array which keywords must to be processed
+ 
+var exclude = Array();
+// Empty = exclude all links except they included (recommended)
+// Specify keywords which URL to be exclude from YouGenURL
+
+var leftads = "<img src='left.jpg'/>";
+// insert left ads on video max width 350px
+// DO NOT insert iframe type!
+
+var rightads = "<img src='right.jpg'/>";
+// insert right ads on video max width 350px
+// DO NOT insert iframe type!
+</script>
+<script type="text/javascript" src="https://rawgit.com/ichamasdiya/ugen/master/yougenload.js" id="YouGenURL"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/ichamasdiya/ugen/master/yougenload.css" />
+</head>
+<body bgcolor="#abc">
+
+
+
+<center>
+
+
+<center><h2>catch all external download and link shortener (test adf.ly)</h2><br/>
+<a href="http://kudajantan.com">This is normal URL</a><br/><br/><br/>
+<a href="bagiduit.html">this is onsite URL, not a zip or adf.ly</a><br/><br/><br/><br/>
+<a href="https://taigong.com" id="linkgen">normal https site</a><br/><br/><br/><br/>
+<a href="http://adf.ly/testOlalala">This adf.ly links</a><br/><br/><br/><br/>
+<a href="https://download.com/adf.ly/blabla/lol">catch adf.ly inURL</a><br/><br/><br/><br/>
+<a href="http://www.download.com/toltol.zip">Download toltol (zip)</a><br/><br/><br/><br/>
+</center>
+
+</body>
+</html>
