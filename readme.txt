@@ -12,7 +12,11 @@ How to Install this plugin. Copy the code below between the <head></head> :
 <!-- load jquery, needed 1.7+, if you already have, remove this. -->
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js' type='text/javascript'/>
 <!-- end load jquery, needed 1.7+, if you already have, remove this. -->
-<script type="text/javascript" src="https://rawgit.com/ichamasdiya/ugen/master/yougenload.js" id="YouGenURL"></script>
+<!-- USE non autoplay video, user play the video and link loaded -->
+<script type="text/javascript" src="https://cdn.rawgit.com/ichamasdiya/ugen/master/yougenload.js" id="YouGenURL"></script>
+<!-- OR USE autoplay video, user click link and video loaded -->
+<script type="text/javascript" src="https://cdn.rawgit.com/ichamasdiya/ugen/master/yougenauto.js" id="YouGenURL"></script>
+<!-- core css -->
 <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/ichamasdiya/ugen/master/yougenload.css" />
 <script type="text/javascript">
 // Config
