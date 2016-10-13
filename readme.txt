@@ -3,9 +3,16 @@ Monetize URL Video Loader Plugin (YouGenURL) 1.0.0
 Blogger Demo : 1st-premium-themes.blogspot.com
 
 Monetize your blog / website links into URL loader without leaving the page.
+User must play video to generate the links.
 
 Compatible with any links shortener or direct links.
 Not compatible if you have colorbox & iframe tracker plugin your web.
+
+NOTE: 
+- If you are using autoplay, that against youtube monetization policy (user must click video to play, not script play video)
+- If you have adsense in your website, or display adsense on right and left bar of plugin, that against youtube policy too.
+You have been warned!
+- You can use your own css.
 
 How to Install this plugin. Copy the code below between the <head></head> :
 
